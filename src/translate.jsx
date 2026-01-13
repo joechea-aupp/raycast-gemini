@@ -13,6 +13,6 @@ export default function Translate(props) {
   return useGemini(props, {
     context: prompts,
     allowPaste: true,
-    useSelected: true,
+    useClipboard: true,
   });
 }
